@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Directory</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Book Directory</h1>
+    
+    <form id="bookForm">
+        <input type="text" id="title" placeholder="Title" required>
+        <input type="text" id="author" placeholder="Author" required>
+        <input type="text" id="publisher" placeholder="Publisher" required>
+        <input type="date" id="publishedDate" required>
+        <input type="text" id="isbn" placeholder="ISBN" required>
+        <button type="submit">Add Book</button>
+    </form>
+
+    <ul id="bookList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
